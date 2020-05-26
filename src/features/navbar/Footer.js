@@ -48,15 +48,14 @@ function Footer() {
                                     <h3 className="block-title">Quick Links</h3>
                                     <ul className="menu">
                                         <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">License</a></li>
+                                        <li><a href="#">Support</a></li>                        
                                         <li><a href="/contact">Contact</a></li>
                                     </ul>
                                     <ul className="menu">
                                         <li><a href="#">Terms & Conditions</a></li>
                                         <li><a href="#">Privacy</a></li>
-                                        <li><a href="#">Refferal Terms</a></li>
-                                        <li><a href="#">Product License</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>

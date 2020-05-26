@@ -1,12 +1,21 @@
-	March 24th
+		March 24th
 Move Navigation bar into its own component
 Reduce links on nav and link them to corresponding page
 Move Footer into its own component
 -Footer working correctly(Using Footer per page instead)---Fixed
-Create login
+Create login component
 Create user signup component
 Create recruiter signup component
 Fix routing issues(View App.js)
 -Took more work but It conformed the template to be more 
 -inline with React.js best practices
 Create contact componenet
+		March 25th
+Create & edit profile component
+Create & edit profile edit component 
+Create & edit add resume component
+Create & edit password change component
+Remove excessive links in footer component
+-left 6 to not make it look too empty
+Create & edit notification component
+Create & edit page 404 component

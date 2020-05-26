@@ -1,12 +1,18 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import Navbar from './features/navbar/Navbar';
+import Foot from './features/navbar/Footer';
 import Login from './features/login/Login';
 import Signup from './features/login/Signup';
 import SignupRecruit from './features/login/SignupRecruit';
-import Navbar from './features/navbar/Navbar';
 import Homepage from './features/home/Home';
 import Contact from './features/contact/ContactUs';
-import Foot from './features/navbar/Footer';
+import Profile from "./features/profile/Profile";
+import ProfileEdit from "./features/profile/ProfileEdit";
+import AddResume from "./features/profile/AddResume";
+import ChangePass from "./features/profile/ChangePass";
+import Notifics from "./features/profile/Notificatons";
+import NotFound from "./features/404/PageNotFound";
 import Auth from './features/auth/Auth';
 
 //import images
@@ -27,7 +33,6 @@ import './assets/css/animate.css';
 import './assets/css/main.css';
 import './assets/css/responsive.css';
 
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -38,8 +43,6 @@ import {
 } from "react-router-dom";
 
 function App() {
-
-
 
   useEffect(() => {
 
@@ -69,6 +72,12 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route path="/signupRecruit" component={SignupRecruit} /> 
+        <Route path="/profile" component={Profile} />
+        <Route path="/profileEdit" component={ProfileEdit} />
+        <Route path="/notifications" component={Notifics} />
+        <Route path="/addResume" component={AddResume} />
+        <Route path="/changePass" component={ChangePass} />
+        <Route path="/" component={NotFound} />
       </Switch>
 
       <Foot />
