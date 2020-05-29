@@ -12,6 +12,10 @@ import ProfileEdit from "./features/profile/ProfileEdit";
 import AddResume from "./features/profile/AddResume";
 import ChangePass from "./features/profile/ChangePass";
 import Notifics from "./features/profile/Notificatons";
+import RecruiterProf from "./features/recruiter/RecruiterProfile";
+import RecruitEdit from "./features/recruiter/RecruitEdit";
+import ManageApplication from "./features/recruiter/RecruiterApp";
+import RecruiterNotifics from "./features/recruiter/RecruitNotification";
 import NotFound from "./features/404/PageNotFound";
 import Auth from './features/auth/Auth';
 
@@ -77,6 +81,13 @@ function App() {
         <Route path="/notifications" component={Notifics} />
         <Route path="/addResume" component={AddResume} />
         <Route path="/changePass" component={ChangePass} />
+
+        
+        <Route path="/recruiter" component={RecruiterProf} />
+        <Route path="/recruitEdit" component={RecruitEdit} />
+        <Route path="/recruitNotifics" component={RecruiterNotifics} />
+        <Route path="/recruiterApp" component={ManageApplication} />
+
         <Route path="/" component={NotFound} />
       </Switch>
 

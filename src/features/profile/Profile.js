@@ -19,7 +19,7 @@ function Profile(){
         <div className="row">         
           <div className="col-lg-12">
             <div className="inner-header">
-              <h3>Resume</h3>
+              <h3>Project</h3>
             </div>
           </div>
         </div>
@@ -35,9 +35,9 @@ function Profile(){
             <div className="right-sideabr">
               <h4>Manage Account</h4>
               <ul className="list-item">
-                <li><a className="active" href="/profile">My Resume</a></li>
+                <li><a className="active" href="/profile">My Projects</a></li>
                 <li><a href="/notifications">Notifications </a></li>
-                <li><a href="/profileEdit">Manage Resume </a></li>
+                <li><a href="/profileEdit">Manage Projects </a></li>
                 <li><a href="/changePass">Change Password</a></li>
                 <li><a href="/">Sing Out</a></li>
               </ul>

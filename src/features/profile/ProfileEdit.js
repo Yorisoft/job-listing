@@ -8,7 +8,7 @@ import '../../assets/css/animate.css';
 import '../../assets/css/main.css';
 import '../../assets/css/responsive.css';
 
-function ManageRes(){
+function ManagePro(){
 
     return(
         <>
@@ -18,7 +18,7 @@ function ManageRes(){
         <div className="row">         
           <div className="col-lg-12">
             <div className="inner-header">
-              <h3>Manage Resumes</h3>
+              <h3>Manage Projects</h3>
             </div>
           </div>
         </div>
@@ -34,9 +34,9 @@ function ManageRes(){
             <div className="right-sideabr">
               <h4>Manage Account</h4>
               <ul className="list-item">
-                <li><a href="/profile">My Resume</a></li>
+                <li><a href="/profile">My Projects</a></li>
                 <li><a href="/notifications">Notifications </a></li>
-                <li><a className="active" href="/profileEdit">Manage Resume </a></li>
+                <li><a className="active" href="/profileEdit">Manage Projects </a></li>
                 <li><a href="/changePass">Change Password</a></li>
                 <li><a href="/">Sing Out</a></li>
               </ul>
@@ -44,7 +44,7 @@ function ManageRes(){
           </div>
           <div className="col-lg-8 col-md-12 col-xs-12">
             <div className="job-alerts-item candidates">
-              <h3 className="alerts-title">Manage Resumes</h3>
+              <h3 className="alerts-title">Manage Projects</h3>
               <div className="manager-resumes-item">
                 <div className="manager-content">
                   <a href="resume.html"><img className="resume-thumb" src="../../assets/img/resume/img-1.png" alt="" /></a>
@@ -145,7 +145,7 @@ function ManageRes(){
                   </div>
                 </div>
               </div>     */}
-              <a className="btn btn-common btn-sm" href="/addResume">Add new resume</a>
+              <a className="btn btn-common btn-sm" href="/addResume">Add new Projects</a>
             </div>
           </div>
         </div>
@@ -156,4 +156,4 @@ function ManageRes(){
     );
 }
 
-export default ManageRes;
+export default ManagePro;
