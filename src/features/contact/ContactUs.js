@@ -101,9 +101,11 @@ function Contact(){
             </div>
           </div>
         </div>
-      </div>   
+      </div> <a href="#" className="back-to-top">
+      <i className="lni-arrow-up"></i>
+    </a>   
     </section>
-
+    
     {/* Contact Section End */}
 </>
 

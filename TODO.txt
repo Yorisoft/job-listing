@@ -19,3 +19,12 @@ Remove excessive links in footer component
 -left 6 to not make it look too empty
 Create & edit notification component
 Create & edit page 404 component
+
+
+		TO-DO
+Create & edit recruiters component
+Create & edit recruiters edit component 
+Create & edit add job component
+Create & edit recruiters notification component
+Create & edit job search component
+Create & edit candidate search component
